@@ -1,0 +1,22 @@
+private int gear, speed;
+boolean clutch, accelerator, brake;
+public void start()
+{
+gear = 1;
+speed=10;
+}
+public void stop()
+{
+speed=0;
+}
+public int getSpeed()
+{
+	return speed;
+}
+public void setSpeed()
+{
+	if(k>0)
+	{
+	speed=k;
+	}
+}
